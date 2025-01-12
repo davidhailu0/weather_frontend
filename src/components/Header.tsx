@@ -1,8 +1,7 @@
 "use client";
 
 import { useDebouncedCallback } from "use-debounce";
-import { searchLocation } from "@/services/locationService";
-import { useMutation, useQueryClient } from "@tanstack/react-query";
+import { useQueryClient } from "@tanstack/react-query";
 import { Input } from "./ui/input";
 import { Search } from "lucide-react";
 import { Button } from "./ui/button";
